@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2023 ZapOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Top level Zapped -->
+    <string name="zap_settings_title">Zapped Settings</string>
+    <string name="zap_settings_summary">Get Zapped!</string>
+
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+
+    <!-- Volume dialog position -->
+    <string name="volume_panel_on_left_title">Left volume panel</string>
+    <string name="volume_panel_on_left_summary">Show the volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_land_title">Left landscape volume panel</string>
+    <string name="volume_panel_on_left_land_summary">Keep the volume panel on the left when on landscape</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Second(s)</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_dialog_timeout_summary">The time it takes for volume panel to fade</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_normal">Normal</string>
+
+    <!-- OTA App -->
+    <string name="update_settings_title">Zap Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
+    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+
+    <!-- Zap Version -->
+    <string name="zap_version">Zap Build</string>
+
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
+    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+
+    <!-- Power button -->
+    <string name="power_menu_setting_name">Power button</string>
+    <string name="power_menu_setting_summary">Power button gestures</string>
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response)</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="quickly_open_camera_disabled">Disabled for torch when screen off</string>
+
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Playback control</string>
+    <string name="gesture_playback_control_title">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_delay_title">Playback control activation delay</string>
+    <string name="gesture_playback_control_delay">delay</string>
+    <string name="unit_ms">ms</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">Times</string>
+
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Quick mute</string>
+    <string name="volume_button_quick_mute_category_title">Long-pressing volume down key will mute active volume stream</string>
+    <string name="volume_button_quick_mute_delay_title">Playback control activation delay</string>
+
+    <!-- Gaming macro QS tile -->
+    <string name="gaming_mode_tile_title">Gaming macro</string>
+    <string name="gaming_mode_tile_summary">Gaming macro QS tile settings</string>
+    <string name="gaming_mode_heads_up_title">Heads Up</string>
+    <string name="gaming_mode_heads_up_summary">Whether to disable Heads Up</string>
+    <string name="gaming_mode_zen_title">Do Not Disturb</string>
+    <string name="gaming_mode_zen_summary">Whether to enable DND</string>
+    <string name="gaming_mode_ringer_title">Ringer Mode</string>
+    <string name="gaming_mode_ringer_disabled">Don\'t change</string>
+    <string name="gaming_mode_ringer_vibrate">Vibrate</string>
+    <string name="gaming_mode_ringer_silent">Silent</string>
+    <string name="gaming_mode_night_light_title">Night Light</string>
+    <string name="gaming_mode_night_light_summary">Whether to disable Night Light and schedule</string>
+    <string name="gaming_mode_battery_schedule_title">Battery Saver</string>
+    <string name="gaming_mode_battery_schedule_summary">Whether to disable battery saver and schedule</string>
+    <string name="gaming_mode_brightness_enabled_title">Auto Brightness</string>
+    <string name="gaming_mode_brightness_enabled_summary">Whether to disable automatic brightness</string>
+    <string name="gaming_mode_brightness_title">Set brightness to</string>
+    <string name="gaming_mode_brightness_summary">Set 0 to keep as is</string>
+    <string name="gaming_mode_media_enabled_title">Media Volume</string>
+    <string name="gaming_mode_media_enabled_summary">Whether to set media volume</string>
+    <string name="gaming_mode_media_title">Set volume to</string>
+    <string name="gaming_mode_desc">Gaming macro will toggle the settings you chose above. All of the toggled settings will be saved and toggled back once you disable Gaming Macro</string>
+    <string name="gaming_mode_screen_off_title">Screen off deactivates</string>
+    <string name="gaming_mode_screen_off_summary">Deactivate gaming macro when the screen turns off</string>
+
+    <!-- 3-Button navigation settings -->
+    <string name="button_settings_activity_title">3-Button Navigation Settings</string>
+    <string name="navigation_bar_inverse_title">Inverse Layout</string>
+    <string name="navigation_bar_inverse_summary">Swipe positions between back and recents</string>
+    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_leftleaning">Left-leaning</string>
+    <string name="navbar_layout_rightleaning">Right-leaning</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_title">Back Height</string>
+    <string name="back_height_message">Amount of screen height used as a touchable region for back gesture</string>
+
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+
+    <!-- Hotspot -->
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes.</string>
+
+    <!-- Black background -->
+    <string name="black_bg_title">Black background</string>
+    <string name="black_bg_summary">Use an absolute black background when dark mode is on</string>
+
+    <!-- Disable VRR -->
+    <string name="disable_vrr_title">Disable VRR</string>
+    <string name="disable_vrr_summary">Do not use content based refresh rate switching\nWill harm battery life</string>
+
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Custom vibration pattern</string>
+    <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
+    <string name="notification_custom_vibrate_slider1">Vibrate for</string>
+    <string name="notification_custom_vibrate_slider2">Pause for</string>
+
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Blink Torch</string>
+    <string name="default_notification_torch_summary">Blink the camera flashlight for this notification</string>
+    <string name="default_notification_torch_slider1">Times to blink</string>
+    <string name="default_notification_torch_slider2">Rate of blink</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
+
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">NFC sounds</string>
+
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+
+    <!-- Media player settings -->
+    <string name="media_controls_always_show_time_title">Always show time</string>
+    <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
+    <string name="media_controls_squiggle_title">Squiggly progress</string>
+    <string name="media_controls_squiggle_summary">Show a squiggly, annoying, useless, sperm-looking and distracting progress bar on media player\nRequires a SystemUI restart to take effect</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+
+    <!-- Connectivity check -->
+    <string name="connectivity_check_title">Internet connectivity check</string>
+    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
+
+    <string name="sandboxed_google_play">Sandboxed Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
+
+    <string name="auto_grant_OTHER_SENSORS_permission_title">Allow Sensors permission to apps by default</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensors is a non-standard permission, apps may malfunction if it’s denied.</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">A permission prompt will be shown when an app tries to access sensors. Note that some apps may need to be manually restarted after allowing the Sensors permission.</string>
+
+    <string name="app_info_install_time">Installed: %1$s</string>
+    <string name="app_info_update_time">Updated: %1$s</string>
+    <string name="storage_scopes">Storage Scopes</string>
+
+    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+
+</resources>
